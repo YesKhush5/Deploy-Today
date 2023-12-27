@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <>
+    <div>
       <nav className="container flex md:hidden mx-auto items-center justify-between p-5">
         <div className="flex items-center">
           <button
@@ -120,7 +120,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
